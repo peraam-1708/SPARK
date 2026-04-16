@@ -12,7 +12,7 @@ app.use(express.json());
 mongoose.connect(process.env.MONGO_URI)
   .then(() => console.log("MongoDB Atlas connected!"))
   .catch(err => console.log("Connection error:", err));
-//mongodb+srv://peraambigaidhevi_db_user:M9z2v0rWwmeGhfut@productivity-tracker.e6ojfio.mongodb.net/
+
 
 // Schema for activity
 const activitySchema = new mongoose.Schema({
